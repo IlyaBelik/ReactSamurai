@@ -1,0 +1,37 @@
+.app-wrapper{
+  margin: 0 auto;
+  display: grid;
+  width: 1200px;
+  grid-template-areas:
+            "a a a"
+            "b c c"
+            "b c c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /*grid-gap: ;*/
+}
+
+.header{
+  grid-area: a;
+  background-color: cornflowerblue;
+}
+
+.header img{
+  width: 80px;
+}
+
+.nav{
+  grid-area: b;
+  background-color: azure;
+}
+
+.profile{
+  grid-area: c;
+  background-color: yellow;
+}
+
+.profile img{
+  height: 200px;
+  width: 1000px;
+}
