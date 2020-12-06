@@ -1,0 +1,8 @@
+.nav{
+    grid-area: b;
+    background-color: azure;
+}
+
+.item{
+    color: red;
+}

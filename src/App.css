@@ -12,26 +12,4 @@
   /*grid-gap: ;*/
 }
 
-.header{
-  grid-area: a;
-  background-color: cornflowerblue;
-}
 
-.header img{
-  width: 80px;
-}
-
-.nav{
-  grid-area: b;
-  background-color: azure;
-}
-
-.profile{
-  grid-area: c;
-  background-color: yellow;
-}
-
-.profile img{
-  height: 200px;
-  width: 1000px;
-}
