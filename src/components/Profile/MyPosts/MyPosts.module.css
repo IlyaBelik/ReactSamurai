@@ -1,9 +1,7 @@
-.profile{
-    grid-area: c;
-    background-color: yellow;
+.postBlock{
+    padding: 10px;
 }
 
-.profile img{
-    height: 200px;
-    width: 1000px;
+.posts{
+    padding: 10px;
 }
